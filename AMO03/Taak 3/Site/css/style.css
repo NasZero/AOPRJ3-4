@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Montserrat');
+body, html {
+    height: 100%;
+    display: grid;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 100% !important;
+    background: linear-gradient(70deg, rgba(231, 76, 60,0.95) 0%, rgba(231, 76, 60,0.95) 100%), url('https://static.collectui.com/shots/3543891/busy-desk-large') no-repeat right fixed;
+    background-size: cover;
+}
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#particles-js{
+    height: 100%;
+}
+.inner-box{
+    background: #ecf0f1;
+    width: 25%;
+    height: 80vh;
+    box-shadow: -7px 11px 66px 0px rgba(0,0,0,0.75);
+    background: linear-gradient(70deg, rgba(231, 76, 60,0.8) 0%, rgba(231, 76, 60,0.8) 100%), url('https://static.collectui.com/shots/3543891/busy-desk-large') no-repeat right fixed;
+    background-size: cover;
+}
+.box-top{
+    margin-top: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #ecf0f1;
+}
+.border {
+    display: block;
+    width: 10vw;
+    height:0.4vw;
+    background: #ecf0f1;
+    border-radius: 15px;
+}
+.form{
+    padding-top: 2.5vw;
+}
+input{
+    border: none;
+}
+input[type="text"],
+input[type="password"]{
+    background: #ecf0f1;
+    font-weight:bold;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    outline:none;
+    color:#838383;
+    font-family: 'Montserrat', sans-serif;
+}
+input[type="submit"]{
+    display:block;
+    padding:10px 25px 10px 25px;
+    background:#50BFA4;
+    border-radius: 5px;
+    font-weight:bold;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+input[type="submit"]:hover{
+    background:#58CCB0;
+}
+.register-BTN{
+    position: relative;
+    cursor: pointer;
+}
+
+.register-BTN span::after{
+    background:#e17055;
+    display: block;
+    content: '';
+    width: 3.2vw;
+    height: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 56%;
+    border-radius: 15px;
+    transition: 1s;
+}
+.register-BTN span:hover::after{
+    background:#ff7675;
+    display: block;
+    content: '';
+    width: 4.5vw;
+    height: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 54%;
+    border-radius: 15px;
+}
+.register-BTN{
+    padding-top: 7.5vw;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 10px;
+}
+.footer{
+    color: #ecf0f1;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
